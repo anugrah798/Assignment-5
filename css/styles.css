@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PROFILE IMAGE */
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* CARD EFFECT */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
